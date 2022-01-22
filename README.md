@@ -111,7 +111,7 @@ Six methods were tested to determine which one is the best. The first four are l
     F1-score (Low Risk): 95%
     
     This method gives us a huge boost into the detection of Low Risk people and the High Risk people detection is not as good as the SMOTEENN one but it is pretty close.
- - ### Easy Ensemple AdaBoost Classifier
+ - ### Easy Ensemble AdaBoost Classifier
     Balanced Accuracy Score: 93%
     #### Confusion Matrix
     |  | Predicted High Risk | Predicted Low Risk |
@@ -133,3 +133,4 @@ Six methods were tested to determine which one is the best. The first four are l
     
     Without doubt the best method of all, has a BAS of 93%, all of our detection metrics for Low Risk and High Risk are the highest of all the methods and  only missing on 8 High Risk people makes this the best one.
 ## Summary
+So from all the methods tested the best one for this dataset is the Easy Ensemble AdaBoost Classifier, which is the one with the best metrics of all. Through the analysis of each method pros and cons were found for each one. Would I recommend the method, yes because the probabilities of a High Risk person slipping through the cracks is of 0.04%. Perhaps, as a further analysis could be comparing this percentage to the percentage of High Risk people detected by a normal person.   
